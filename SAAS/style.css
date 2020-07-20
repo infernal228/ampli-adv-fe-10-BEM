@@ -68,7 +68,7 @@ header .navigation {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 header .navigation__burger-menu {
@@ -119,6 +119,8 @@ header .navigation__btns button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: calc(99% - (122px + 110px));
+  padding-top: 60px;
 }
 
 .content__hero {
@@ -256,7 +258,8 @@ header .navigation__btns button:hover {
   transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-footer {
+.navigation {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,30 +269,28 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 160px;
-  padding: 0 20px 0 20px;
-  color: #ffffff;
+  padding: 30px;
 }
 
-footer .social-networks {
+.navigation .social-networks {
   font-size: 30px;
 }
 
-footer .social-networks a {
+.navigation .social-networks a {
   color: #ffffff;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
-footer .social-networks a:hover {
+.navigation .social-networks a:hover {
   color: #201f1f;
 }
 
-footer .social-networks i {
+.navigation .social-networks i {
   margin-right: 5px;
 }
 
-footer .question a {
+.navigation .question a {
   color: #ffffff;
   text-decoration: none;
   position: relative;
@@ -297,7 +298,7 @@ footer .question a {
   padding-bottom: 8px;
 }
 
-footer .question a:before, footer .question a:after {
+.navigation .question a:before, .navigation .question a:after {
   content: "";
   position: absolute;
   bottom: 2px;
@@ -307,7 +308,7 @@ footer .question a:before, footer .question a:after {
   background-color: #201f1f;
 }
 
-footer .question a:before {
+.navigation .question a:before {
   opacity: 0;
   -webkit-transform: translateY(-8px);
           transform: translateY(-8px);
@@ -317,7 +318,7 @@ footer .question a:before {
   transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-footer .question a:after {
+.navigation .question a:after {
   opacity: 0;
   -webkit-transform: translateY(4px);
           transform: translateY(4px);
@@ -327,20 +328,20 @@ footer .question a:after {
   transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-footer .question a:hover:before, footer .question a:hover:after, footer .question a:focus:before, footer .question a:focus:after {
+.navigation .question a:hover:before, .navigation .question a:hover:after, .navigation .question a:focus:before, .navigation .question a:focus:after {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-footer .question a:hover:before, footer .question a:focus:before {
+.navigation .question a:hover:before, .navigation .question a:focus:before {
   -webkit-transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
   transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-footer .question a:hover:after, footer .question a:focus:after {
+.navigation .question a:hover:after, .navigation .question a:focus:after {
   -webkit-transition: opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
