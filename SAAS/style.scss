@@ -202,7 +202,14 @@ header {
   }
 
   .content__form-search {
-    width: 400px;
+    width: 300px;
+  }
+
+  .content__requests-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .content__requests-list li {

@@ -356,7 +356,16 @@ header .navigation__btns button:hover {
     font-size: 15px;
   }
   .content__form-search {
-    width: 400px;
+    width: 300px;
+  }
+  .content__requests-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .content__requests-list li {
     font-size: 13px;
